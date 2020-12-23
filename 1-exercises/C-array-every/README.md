@@ -16,6 +16,9 @@ function isAboveThreshold(name) {
 
 To check that each name is longer than 3 characters, you'd have to run this function against every name in the array and return false if someone's name is 3 or fewer characters. Thankfully there is an array method that does just this!
 
+var groupIsOnlyStudents = students.every();
+}
+```
 ## `.every()`
 
 _Searches through an array and returns true if every item satisifies the predicate function you provided. Otherwise, it returns false_.
