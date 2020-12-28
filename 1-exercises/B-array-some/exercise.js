@@ -8,6 +8,11 @@
 
 var pairsByIndex = [[0, 3], [1, 2], [2, 1], null, [3, 0]];
 
+
+
+
+
+
 //if(  === null) {
  // document.write("Value is null");
 //} else {
