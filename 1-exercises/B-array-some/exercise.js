@@ -14,7 +14,7 @@ var pairsByIndex = [[0, 3], [1, 2], [2, 1], null, [3, 0]];
  // document.write("Value is not null");
 //}
 function nullValue (arr) {
-if (arr.some(v => v < 0)) {
+if (arr === null ) {
   process.exit(1);
 }
 else {
