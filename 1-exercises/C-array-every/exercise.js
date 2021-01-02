@@ -3,15 +3,20 @@
 */
 
 var students = ["Omar", "Austine", "Dany", "Swathi", "Lesley", "Rukmini"];
-var group = ["Austine", "Dany", "Swathi", "Daniel"];
-let studentsInGroup = students.localeCompare(group);
+
+//var group = ["Austine", "Dany", "Swathi"];  // ,"Daniel"    returns only students
+
+var group = ["Austine", "Dany", "Swathi","Daniel"];  // The group does not contain only students  
+
 //const isBelowThreshold = (currentValue) => currentValue < 40;
 //function isStudents(name) {
   //return 
 //}
 
 
-var groupIsOnlyStudents = students.every(studentsInGroup); // complete this statement
+//var groupIsOnlyStudents = students.every(studentsInGroup); // complete this statement
+
+var groupIsOnlyStudents = group.every(elem => students.includes(elem));
 
 if (groupIsOnlyStudents) {
   console.log("The group contains only students");
